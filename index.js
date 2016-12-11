@@ -25,7 +25,7 @@ function addFileDep(filePath, file) {
 
     file.addRequire(info.file.getId());
     file.addLink(info.file.subpath);
-    file.cache.addDeps(info.file.subpath);
+    file.cache.addDeps(filePath);
 
     return info;
 }
