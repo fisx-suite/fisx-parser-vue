@@ -38,7 +38,7 @@ fis.match('/src/(**.vue)', {
 
 * For Vue 2.x parser using [fisx-vue-loader](https://github.com/wuhy/fisx-vue-loader)
 
-If you using `babel-plugin-external-helpers` plugin, you can use [fisx-preprocessor-babel](https://github.com/wuhy/fisx-preprocessor-babel) preprocessor. If the module style is `commonjs`, you can use [fisx-preprocessor-amd](https://github.com/wuhy/fisx-preprocessor-amd) preprocessor to convert to amd module style.
+If you using `babel-plugin-external-helpers` plugin, you can use [fisx-preprocessor-babel](https://github.com/wuhy/fisx-preprocessor-babel) and [fisx-prepackager-babel](https://github.com/wuhy/fisx-prepackager-babel) plugins. If the module style is `commonjs`, you can use [fisx-preprocessor-amd](https://github.com/wuhy/fisx-preprocessor-amd) preprocessor to convert to amd module style.
 
 ### Options
 
