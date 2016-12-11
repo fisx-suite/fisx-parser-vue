@@ -1,6 +1,6 @@
 fisx-parser-vue
 ======
-> A parser to compile the vue single file component support vue1 and vue2. 
+> A fisx parser to compile the vue single file component support vue1 and vue2. 
 
 ## How to use
 
@@ -34,14 +34,18 @@ fis.match('/src/(**.vue)', {
 });
 ```
 
-* Vue 1.x parser using [fisx-vue1-loader](https://github.com/wuhy/fisx-vue1-loader)
+* For Vue 1.x parser using [fisx-vue1-loader](https://github.com/wuhy/fisx-vue1-loader)
 
-* Vue 2.x parser using [fisx-vue-loader](https://github.com/wuhy/fisx-vue-loader)
+* For Vue 2.x parser using [fisx-vue-loader](https://github.com/wuhy/fisx-vue-loader)
 
-**Tip** if you using `babel-plugin-external-helpers` plugin, you can use [fisx-preprocessor-babel](https://github.com/wuhy/fisx-preprocessor-babel) preprocessor. If the module style is `commonjs`, you can use [fisx-preprocessor-amd](https://github.com/wuhy/fisx-preprocessor-amd) preprocessor to convert to amd module style.
+If you using `babel-plugin-external-helpers` plugin, you can use [fisx-preprocessor-babel](https://github.com/wuhy/fisx-preprocessor-babel) preprocessor. If the module style is `commonjs`, you can use [fisx-preprocessor-amd](https://github.com/wuhy/fisx-preprocessor-amd) preprocessor to convert to amd module style.
 
 ### Options
 
-* babelHelperModId - `string` `optional`: define the babel helpers module id, by default `babelHelpers`
+* styleNameJoin - `string` `optional`: define the extracted style output file name join part, by default `vue-part`, e.g., the vue file is `a.vue`, the extracted style output file name is `a-vue-part.css`
 
-* disableBabel - `boolean` `optional`: if the processed file has disableBabel configure with `true`, the preprocessor will ignore this file
+* template - `Object` `optional`: define the template compile option, the detail option information refer `fisx-vue-loader` or `fisx-vue1-loader`.
+
+* script - `Object` `optional`: define the script compile option, the detail option information refer `fisx-vue-loader` or `fisx-vue1-loader`.
+
+* style - `Object` `optional`: define the style compile option, the detail option information refer `fisx-vue-loader` or `fisx-vue1-loader`.
