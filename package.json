@@ -1,0 +1,21 @@
+{
+  "name": "fisx-parser-vue",
+  "version": "0.1.0",
+  "description": "A parser for fisx to compile vue component",
+  "main": "index.js",
+  "keywords": ["fisx","fis3","fis","vue"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuhuy/fisx-parser-vue.git"
+  },
+  "bugs": {
+    "url": "http://github.com/wuhuy/fisx-parser-vue/issues"
+  },
+  "author": "sparklewhy@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
