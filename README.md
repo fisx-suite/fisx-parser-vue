@@ -49,3 +49,7 @@ If you using `babel-plugin-external-helpers` plugin, you can use [fisx-preproces
 * script - `Object` `optional`: define the script compile option, the detail option information refer `fisx-vue-loader` or `fisx-vue1-loader`.
 
 * style - `Object` `optional`: define the style compile option, the detail option information refer `fisx-vue-loader` or `fisx-vue1-loader`.
+
+* sourceMap - `boolean` `optional`: whether output the source map information file, by default `false`
+
+* isProduction - `boolean` `optional`: whether release in production environment, by default `true`
