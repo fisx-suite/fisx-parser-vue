@@ -113,7 +113,7 @@ function compile(content, file, conf) {
     });
 
     var result = exports.parser.compile(
-        file.subpath.substr(1), content.toString(), opts
+        file.subpath.replace(/^\/+/, ''), content.toString(), opts
     );
     var resolveParts = result.resolveParts;
 
