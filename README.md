@@ -1,5 +1,7 @@
 fisx-parser-vue
 ======
+[![Dependency Status](https://david-dm.org/wuhy/fisx-parser-vue.svg)](https://david-dm.org/wuhy/fisx-parser-vue) [![devDependency Status](https://david-dm.org/wuhy/fisx-parser-vue/dev-status.svg)](https://david-dm.org/wuhy/fisx-parser-vue#info=devDependencies) [![NPM Version](https://img.shields.io/npm/v/fisx-parser-vue.svg?style=flat)](https://npmjs.org/package/fisx-parser-vue)
+
 > A fisx parser to compile the vue single file component support vue1 and vue2. 
 
 ## How to use
