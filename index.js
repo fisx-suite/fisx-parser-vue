@@ -81,7 +81,8 @@ function compileStyle(file, styleParts, opts) {
 
         styleFile.cache = file.cache;
         styleFile.isCssLike = true;
-        styleFile.useMap = false;
+        styleFile.useMap = file.useMap;
+        styleFile.useHash = file.useHash;
         styleFile.setContent(code);
 
         // compile style file without using cache
