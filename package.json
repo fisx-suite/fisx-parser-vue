@@ -1,6 +1,6 @@
 {
   "name": "fisx-parser-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A parser for fisx to compile vue component",
   "main": "index.js",
   "keywords": ["fisx","fis3","fis","vue"],
