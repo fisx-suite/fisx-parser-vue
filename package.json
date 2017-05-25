@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wuhuy/fisx-parser-vue.git"
+    "url": "https://github.com/fisx-suite/fisx-parser-vue.git"
   },
   "bugs": {
-    "url": "http://github.com/wuhuy/fisx-parser-vue/issues"
+    "url": "http://github.com/fisx-suite/fisx-parser-vue/issues"
   },
   "author": "sparklewhy@gmail.com",
   "license": "ISC",
